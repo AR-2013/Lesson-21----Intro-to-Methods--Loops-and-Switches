@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Homework
+        </title>
+    </head>
+    <body>
+        <p id = "demo"></p>
+        <script>
+            var date;
+            switch(new Date().getDay()) {
+             case 0:
+             date = "25" ;
+             break;
+             case 1:
+             date = "26" ;
+             break;
+             case 2:
+             date = "27" ;
+             break;
+             case 3:
+             date = "28" ;
+             break;
+             case 4:
+             date = "29" ;
+             break;
+             case 5:
+             date = "30" ;
+             break;
+             case 6:
+             date = "1" ;
+             break;
+            }
+             document.getElementById("demo").innerHTML = "Today is " + date;
+        </script>
+    </body>
+</html>
